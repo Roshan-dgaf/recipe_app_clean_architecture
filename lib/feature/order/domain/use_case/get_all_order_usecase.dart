@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:recipe_app/app/usecase/usease.dart';
+import 'package:recipe_app/app/usecase/usecase.dart';
 import 'package:recipe_app/core/error/failure.dart';
 import 'package:recipe_app/feature/order/domain/entity/order_entity.dart';
 import 'package:recipe_app/feature/order/domain/repository/order_repository.dart';

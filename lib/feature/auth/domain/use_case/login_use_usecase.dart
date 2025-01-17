@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:recipe_app/app/usecase/usease.dart';
+import 'package:recipe_app/app/usecase/usecase.dart';
 import 'package:recipe_app/core/error/failure.dart';
 import 'package:recipe_app/feature/auth/domain/repository/auth_repository.dart';
 
@@ -35,7 +35,7 @@ class LoginUseCase implements UsecaseWithParams<String, LoginParams> {
   // }
   Future<Either<Failure, String>> call(LoginParams params) async {
     // Hardcoded username and password check
-    if (params.username == 'Suyogya' && params.password == '123456') {
+    if (params.username == 'Roshan' && params.password == '123456') {
       return const Right("Your Are Logined !!"); // Return success with token
     } else {
       return Left(Failure(message: 'Failed')); // Return failure if invalid

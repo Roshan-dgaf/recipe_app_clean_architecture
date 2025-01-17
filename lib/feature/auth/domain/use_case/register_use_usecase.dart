@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:recipe_app/app/usecase/usease.dart';
+import 'package:recipe_app/app/usecase/usecase.dart';
 import 'package:recipe_app/core/error/failure.dart';
 import 'package:recipe_app/feature/auth/domain/entity/auth_entity.dart';
 import 'package:recipe_app/feature/auth/domain/repository/auth_repository.dart';

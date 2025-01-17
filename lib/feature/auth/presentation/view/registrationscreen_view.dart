@@ -26,7 +26,7 @@ class _RegisterViewState extends State<RegistrationscreenView> {
       appBar: AppBar(
         title: BlocBuilder<RegistrationBloc, RegistrationState>(
           builder: (context, state) {
-            return const Text('---- REGISTRATION ----');
+            return const Text(' REGISTRATION ');
           },
         ),
         centerTitle: true,
@@ -181,7 +181,7 @@ class _RegisterViewState extends State<RegistrationscreenView> {
                         }
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.orange,
+                        backgroundColor: Colors.green,
                         foregroundColor: Colors.white,
                         minimumSize: const Size(double.infinity, 50),
                         shape: RoundedRectangleBorder(

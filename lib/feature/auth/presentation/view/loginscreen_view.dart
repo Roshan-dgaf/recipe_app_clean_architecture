@@ -28,7 +28,7 @@ class _LoginscreenViewState extends State<LoginscreenView> {
         height: MediaQuery.of(context).size.height,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.red, Colors.orange],
+            colors: [Colors.purple, Colors.blue],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -41,15 +41,15 @@ class _LoginscreenViewState extends State<LoginscreenView> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const Icon(
-                    Icons.inventory,
-                    color: Colors.white,
+                    Icons.restaurant,
+                    color: Colors.orange,
                     size: 100,
                   ),
                   gap,
                   const Text(
-                    "StockVision",
+                    "Recipe App",
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.orange,
                       fontSize: 36,
                       fontWeight: FontWeight.bold,
                     ),
@@ -125,7 +125,7 @@ class _LoginscreenViewState extends State<LoginscreenView> {
                                 password: passwordController.text,
                               ),
                             );
-                        if (usernameController.text == 'Suyogya' &&
+                        if (usernameController.text == 'Roshan' &&
                             passwordController.text == '123456') {
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
